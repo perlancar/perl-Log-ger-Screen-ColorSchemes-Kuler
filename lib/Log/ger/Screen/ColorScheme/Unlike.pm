@@ -27,9 +27,19 @@ for (keys %colors) {
 
 =head1 SYNOPSIS
 
+Via Perl code:
+
  use Log::ger::Output 'Screen';
  use Log::ger::Screen::ColorScheme::Unlike;
  use Log::ger;
 
  log_error("error");
  log_warn("warn");
+
+Via command-line:
+
+ % PERL5OPT=-MLog::ger::Screen::ColorScheme::Unlike yourscript.pl ...
+
+Screenshot:
+
+# IMAGE: share/images/unlike.png
