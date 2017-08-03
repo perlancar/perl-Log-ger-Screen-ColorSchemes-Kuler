@@ -9,12 +9,12 @@ use Color::ANSI::Util qw(ansifg);
 use Log::ger::Output::Screen ();
 
 our %colors = (
-    1 => "EB7F00", # fatal
-    2 => "F3FFE2", # error
-    3 => "ACF0F2", # warn
-    4 => "1695A3", # info
-    5 => "",       # debug
-    6 => "225378", # trace
+    10 => "EB7F00", # fatal
+    20 => "F3FFE2", # error
+    30 => "ACF0F2", # warn
+    40 => "1695A3", # info
+    50 => "",       # debug
+    60 => "225378", # trace
 );
 
 for (keys %colors) {
