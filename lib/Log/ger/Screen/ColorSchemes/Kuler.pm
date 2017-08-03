@@ -4,4 +4,4 @@ package Log::ger::Screen::ColorSchemes::Kuler;
 # VERSION
 
 1;
-# ABSTRACT: Color schemes from Adobe Kuler
+# ABSTRACT: Some popular color schemes from Adobe Kuler
